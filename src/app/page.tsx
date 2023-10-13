@@ -10,7 +10,7 @@ const generateId = () => {
 }
 generateId()
 
-export default function Home() {
+const Home = () => {
   const [avatar, setAvatar] = useState("https://staticg.sportskeeda.com/editor/2022/08/53e15-16596004347246.png?w=840");
   const [name, setName] = useState("Naruto Uzumaki");
   const [description, setDescription] = useState("Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure");
@@ -40,3 +40,5 @@ export default function Home() {
     </div>
   </>
 }
+
+export default Home;
